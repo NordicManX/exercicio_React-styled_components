@@ -1,5 +1,8 @@
+import { createGlobalStyle } from 'styled-components'
+
+export const EstiloGlobal = createGlobalStyle`
 :root {
-  --cor-Principal: #a7727d;
+  --cor-principal: #a7727d;
   --cor-secundaria: #f9f5e7;
 }
 
@@ -26,3 +29,5 @@ body {
     max-width: 80%;
   }
 }
+`
+export default EstiloGlobal
